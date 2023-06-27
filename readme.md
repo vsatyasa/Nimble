@@ -60,7 +60,7 @@ Current Coordinates: [306, 326] Client Coordinates: [311, 330] Error: 6.40312423
 Current Coordinates: [304, 324] Client Coordinates: [309, 329] Error: 7.0710678118654755 <br>
 Current Coordinates: [302, 322] Client Coordinates: [307, 327] Error: 7.0710678118654755 <br>
 
-Which shows the current positions, detected position and error (Catesian Distance)
+Which shows the current positions, detected position and error (Cartesian Distance)
 
 
 ## Running in Docker
