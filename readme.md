@@ -71,7 +71,17 @@ Which shows the current positions, detected position and error (Cartesian Distan
 There is a shell script given which aids in building the docker images `build_images.sh`, Running this shell script creates two images
 nimble-server and nimble-client
 
-The instructions to server and client will be printed on the screen like this.
+The instructions to server and client will be printed on tball he screen like this.
+
+_Running Server_
+
+docker run --network host nimble-server
+
+_Running Client_
+
+docker run --network host -e Display="0" nimble-client
+
+While running in docker the display of the ball will be disabled
 
 
 ## Running the test cases.
