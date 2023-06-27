@@ -20,6 +20,7 @@ This section shows the folder structure and highlights the important file / fold
 │   ├── client.py **(This file is the start point to the client)** <br>
 │   ├── requirements.txt <br>
 │   └── test_BallDetector.py <br>
+|   ├── manifest.yaml  **(This file for kubernetes deployment)** <br>       
 ├─ Server **(This Folder Contains all the relevant files to the Server)** <br>
 │   ├── BallGenerator.py <br>
 │   ├── Config.py <br>
@@ -29,8 +30,8 @@ This section shows the folder structure and highlights the important file / fold
 │   ├── requirements.txt <br>
 │   ├── server.py **(This file is the start point to the server)** <br>
 │   └── test_BallGenerator.py <br>
+|   ├── manifest.yaml  **(This file for kubernetes deployment)** <br>
 ├─ build_images.sh **(This file creates the docker images for client and server)** <br>
-├─ manifest.yaml  **(This file for kubernetes deployment)** <br>
 └─ readme.md <br>
 
 
