@@ -9,7 +9,7 @@ This document explains on few aspects on how to navigate the code and run the ex
 
 ## Folder Structure
 
-
+This section shows the folder structure and highlights the important file / folders with description
 
 ├─ Client **(This Folder Contains all the relevant files to the client)** <br>
 │   ├── BallDetector.py <br>
