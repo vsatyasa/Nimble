@@ -15,21 +15,21 @@ This document explains on few aspects on how to navigate the code and run the ex
 │   ├── Config.py <br>
 │   ├── Dockerfile <br>
 │   ├── Utils.py <br>
-│   ├── client.py **(This file is the start point to the client)**
-│   ├── requirements.txt
-│   └── test_BallDetector.py
-├── Server **(This Folder Contains all the relevant files to the Server)**
-│   ├── BallGenerator.py
-│   ├── Config.py
-│   ├── Dockerfile
-│   ├── MovingBallTrack.py
-│   ├── Utils.py
-│   ├── requirements.txt
-│   ├── server.py **(This file is the start point to the server)**
-│   └── test_BallGenerator.py
-├── build_images.sh **(This file creates the docker images for client and server)**
-├── manifest.yaml  **(This file for kubernetes deployment)**
-└── readme.md
+│   ├── client.py **(This file is the start point to the client)** <br>
+│   ├── requirements.txt <br>
+│   └── test_BallDetector.py <br>
+├── Server **(This Folder Contains all the relevant files to the Server)** <br>
+│   ├── BallGenerator.py <br>
+│   ├── Config.py <br>
+│   ├── Dockerfile <br>
+│   ├── MovingBallTrack.py <br>
+│   ├── Utils.py <br>
+│   ├── requirements.txt <br>
+│   ├── server.py **(This file is the start point to the server)** <br>
+│   └── test_BallGenerator.py <br>
+├── build_images.sh **(This file creates the docker images for client and server)** <br>
+├── manifest.yaml  **(This file for kubernetes deployment)** <br>
+└── readme.md <br>
 
 
 ## Running Natively
