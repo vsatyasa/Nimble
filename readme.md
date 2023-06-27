@@ -9,12 +9,12 @@ This document explains on few aspects on how to navigate the code and run the ex
 
 ## Folder Structure
 
-├── Client **(This Folder Contains all the relevant files to the client)**
-│   ├── BallDetector.py
-│   ├── BallRecvTrack.py
-│   ├── Config.py
-│   ├── Dockerfile
-│   ├── Utils.py
+├── Client **(This Folder Contains all the relevant files to the client)** <br>
+│   ├── BallDetector.py <br>
+│   ├── BallRecvTrack.py <br>
+│   ├── Config.py <br>
+│   ├── Dockerfile <br>
+│   ├── Utils.py <br>
 │   ├── client.py **(This file is the start point to the client)**
 │   ├── requirements.txt
 │   └── test_BallDetector.py
