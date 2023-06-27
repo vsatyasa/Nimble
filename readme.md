@@ -88,6 +88,6 @@ While running in docker the display of the ball will be disabled
 ## Running the test cases.
 
 Both Server and Client folder has test_<filename>.py which has few test cases.
-The tests could directly be run run by running the command `python3 test_<filename>.py`
+The tests could directly be run run by running the command `pytest test_<filename>.py`
 
 ## References
