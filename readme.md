@@ -9,6 +9,28 @@ This document explains on few aspects on how to navigate the code and run the ex
 
 ## Folder Structure
 
+├── Client **(This Folder Contains all the relevant files to the client)**
+│   ├── BallDetector.py
+│   ├── BallRecvTrack.py
+│   ├── Config.py
+│   ├── Dockerfile
+│   ├── Utils.py
+│   ├── client.py **(This file is the start point to the client)**
+│   ├── requirements.txt
+│   └── test_BallDetector.py
+├── Server **(This Folder Contains all the relevant files to the Server)**
+│   ├── BallGenerator.py
+│   ├── Config.py
+│   ├── Dockerfile
+│   ├── MovingBallTrack.py
+│   ├── Utils.py
+│   ├── requirements.txt
+│   ├── server.py **(This file is the start point to the server)**
+│   └── test_BallGenerator.py
+├── build_images.sh **(This file creates the docker images for client and server)**
+├── manifest.yaml  **(This file for kubernetes deployment)**
+└── readme.md
+
 
 ## Running Natively
 
