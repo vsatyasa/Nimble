@@ -1,8 +1,10 @@
 import cv2
+import os
 from BallDetector import BallDetector
 from aiortc import (
     VideoStreamTrack
 )
+from Config import *
 
 class BallRecvTrack(VideoStreamTrack):
     """
@@ -63,8 +65,9 @@ class BallRecvTrack(VideoStreamTrack):
 
         ball_coordinates = self.process_a(cv_frame, None)
         
-        cv2.imshow("frame", cv_frame)
-        cv2.waitKey(10)
+        if DISPLAY:
+            cv2.imshow("frame", cv_frame)
+            cv2.waitKey(10)
         
         if self.chat_channel is not None and len(ball_coordinates) > 0: 
             print("Sending ball_coordinates", ball_coordinates)
