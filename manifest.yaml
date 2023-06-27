@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: server
+  template:
+    metadata:
+      labels:
+        app: server
+    spec:
+      hostNetwork: true
+      containers:
+        - name: server
+          image: vsatyasa/nimble-server
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: client-configmap
+data:
+  Display: "0"
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: client
+  template:
+    metadata:
+      labels:
+        app: client
+    spec:
+      hostNetwork: true
+      containers:
+        - name: client
+          image: vsatyasa/nimble-client
+          envFrom:
+            - configMapRef:
+                name: client-configmap
