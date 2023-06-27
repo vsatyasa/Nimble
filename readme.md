@@ -4,7 +4,7 @@
 ## Description
 
 This is the Submission for the inital screen-rounding from Nimble Robotics
-This document explains on few aspects on how to navigate the code and run the experiments for checking the system in actiom
+This document explains on few aspects on how to navigate the code and run the experiments for checking the system in action
 
 
 ## Folder Structure
