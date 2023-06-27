@@ -66,6 +66,12 @@ Which shows the current positions, detected position and error (Cartesian Distan
 ## Running in Docker
 
 
+** This section how can the user run the server and client on the docker container**
+
+There is a shell script given which aids in building the docker images `build_images.sh`, Running this shell script creates two images
+nimble-server and nimble-client
+
+The instructions to server and client will be printed on the screen like this.
 
 
 ## Running the test cases.
