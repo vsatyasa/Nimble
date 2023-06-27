@@ -4,7 +4,7 @@
 ## Description
 
 This is the Submission for the inital screen-rounding from Nimble Robotics
-This document explains on few aspects on how to navigate the code and run the experiments for checking the 
+This document explains on few aspects on how to navigate the code and run the experiments for checking the system in actiom
 
 
 ## Folder Structure
@@ -36,10 +36,10 @@ This section shows the folder structure and highlights the important file / fold
 
 ## Running Natively
 
-** This section how can the user run the server and client on the native machine / baremetal without any virtualization (ex: Docker )**
+**This section how can the user run the server and client on the native machine / baremetal without any virtualization (ex: Docker )**
 
 Firstly install all the dependencies in requirements.txt in Server/Client Folder 
-*** Make sure  / cross check the version of the dependencies mentioned are rightly installed ***
+***Make sure  / cross check the version of the dependencies mentioned are rightly installed***
 
 _Running Server_
 
